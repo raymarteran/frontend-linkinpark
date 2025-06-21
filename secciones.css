@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+
+h2,h3,h4,h5,h6{
+    color: #333;
+    font-family: lato;
+}
+h2{
+    font-size: 26px;
+    color: #242424;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    color: #242424;
+    line-height: 1,5;
+    padding-top: 20px;
+    font-weight: normal;
+}
+h4{
+    margin-top: 15px;
+    color: #171616;
+    font-size: 20px;
+    text-align: center;
+}
+h5{ text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wap{
+   width: 90%;
+   margin: auto;
+}
+.Bienvenidos{
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+.contenedor-columnas1{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex
+}
+.columnasx3{
+    width: 33.33%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.columnasx3 img{
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.banner-1{
+    clear: both;
+    background:url(imagenes/img8.jpeg);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.banner-1 h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+   
+}
+.banner-1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #121111;
+    font-weight: bold;
+    border-bottom: 2px solid #121111;
+}
+.video{
+    width: 90%;
+    padding-left: 50px;
+}
+
+.videofinalhome {
+    margin-bottom: 4rem;
+}
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}

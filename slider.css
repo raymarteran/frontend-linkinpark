@@ -1,0 +1,36 @@
+ #particles-js { 
+    background-image: url('imagenes/imagen.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment:contain; ;
+    width: 100%;
+    height: 110vh;
+  ;
+
+  }
+  .ancho-letras{
+    top: 500px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  .letras-slider{
+    width: 80%;
+    margin: auto;
+  }
+  .letras-slider h1{
+    font-size: 80px;
+    font-family: 'Protest';
+  }
+  .letras-slider p{
+    font-size: 20px;
+ 
+  }
+  .logo img{
+    width: 30px;
+    height: 30px;
+    display: block;
+  
+  }

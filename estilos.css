@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+    background-color:rgba(232, 228, 228, 0.8);
+    height: 70px;
+    z-index: 10;
+    position: fixed;
+ 
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+   /* background-color: #c36868;*/
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+   /* background-color: #2b13c9;*/
+    float: left;
+   padding-top: 10px;
+   box-sizing: border-box;
+}
+.logo p a{
+    color: #000000;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight:bold ;
+    font-family: protest;
+}
+nav{
+    width: 70%;
+    height: 70px;
+   /* background-color: #0dcb7c;*/
+    float: right;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #595757;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight:bold ;
+    letter-spacing: 1px;
+    text-decoration-color: #880404;
+}
+nav ul li a:hover{
+    color:#d20f0f;
+
+}
+@font-face {
+    font-family: protest;
+    src: url(fuentes/ProtestGuerrilla-Regular.ttf);
+}
