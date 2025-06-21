@@ -1,0 +1,85 @@
+/* contacto.css */
+
+.contacto-main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #181818;
+    padding: 7rem 0;
+}
+
+.contacto-section {
+    background: #222;
+    padding: 32px 32px 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    max-width: 420px;
+    width: 100%;
+    color: #fff;
+}
+
+.contacto-section h1 {
+    margin-bottom: 12px;
+    font-size: 2rem;
+    color: #00bcd4;
+    text-align: center;
+}
+
+.contacto-section p {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ccc;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-contacto label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #00bcd4;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #181818;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+}
+
+.form-contacto input:focus,
+.form-contacto textarea:focus {
+    outline: none;
+    border-color: #00bcd4;
+}
+
+.form-contacto button {
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.form-contacto button:hover {
+    background: #0097a7;
+}
+
+@media (max-width: 600px) {
+    .contacto-section {
+        padding: 18px 8px 16px 8px;
+        max-width: 98vw;
+    }
+}

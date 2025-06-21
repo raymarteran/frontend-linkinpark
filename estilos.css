@@ -63,3 +63,18 @@ nav ul li a:hover{
     font-family: protest;
     src: url(fuentes/ProtestGuerrilla-Regular.ttf);
 }
+
+.divrrss {
+   width: 30%;
+   height: 70px;
+   float: left;
+   padding-top: 10px;
+   box-sizing: border-box;
+   position: fixed;
+   top: 6rem;
+   left: 1.5rem;
+}
+
+.imgRedes {
+    width: 2.5rem;
+}
